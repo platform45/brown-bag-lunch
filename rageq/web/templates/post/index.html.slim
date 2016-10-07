@@ -1,0 +1,14 @@
+.posts
+  = for post <- @posts do
+    .posts--post
+      .posts-post--actions
+        i class="read-time" 15 min
+        i class="icon icon-heart"
+        i class="icon icon-clock"
+      .posts-post--image
+        img[src="images/mountains.jpg"]
+      h1.posts-post--heading = post.title
+      p.posts-post--content
+        = String.slice(post.body, 0..140)
+        | ...
+        = link "Read More...", to: post_path(@conn, :show, post), class: "read-more"

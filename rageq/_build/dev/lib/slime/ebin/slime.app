@@ -1,0 +1,13 @@
+{application,slime,
+             [{registered,[]},
+              {description,"An Elixir library for rendering Slim-like templates.\n"},
+              {vsn,"0.13.0"},
+              {modules,['Elixir.Slime','Elixir.Slime.Compiler',
+                        'Elixir.Slime.Doctype','Elixir.Slime.Parser',
+                        'Elixir.Slime.Parser.AttributesKeyword',
+                        'Elixir.Slime.Preprocessor','Elixir.Slime.Renderer',
+                        'Elixir.Slime.Tree','Elixir.Slime.Tree.DoctypeNode',
+                        'Elixir.Slime.Tree.EExNode',
+                        'Elixir.Slime.Tree.HTMLNode',
+                        'Elixir.Slime.Tree.TextNode']},
+              {applications,[kernel,stdlib,elixir]}]}.

@@ -1,0 +1,28 @@
+.post#post data-id="#{@post.id}"
+  .post--post
+    .posts-post--actions
+      i class="read-time" 15 min
+      i class="icon icon-heart"
+      i class="icon icon-clock"
+    .post-post--image
+      img[src="../images/mountains.jpg"]
+    h1.post-post--heading = @post.title
+    p.post-post--content
+      = @post.body
+    .post-post--comments
+      = for comment <- @post.comments do
+        .post-post--comment
+          .post-post--comment-details.row
+            .post-post--comment-details-author.col-sm-6
+              p = comment.user.username
+            .post-post--comment-details-date.col-sm-6.text-right
+              p = comment.inserted_at
+          .post-post--comment-body
+            p = comment.body
+
+      .post-post-comment-box
+        .form-group
+          textarea id="comment-text-area" class="form-control"
+          input id="user" type="hidden" value="#{@current_user}"
+        .form-group.text-right
+          a.js-submit-comment Post Comment

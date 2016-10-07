@@ -1,0 +1,25 @@
+v2.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/phoenix_slime/ebin/Elixir.PhoenixSlime.beam">>,
+ 'Elixir.PhoenixSlime',module,<<"lib/phoenix_slime.ex">>,
+ ['Elixir.Kernel'],
+ [],[],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/phoenix_slime/ebin/Elixir.PhoenixSlime.Engine.beam">>,
+ 'Elixir.PhoenixSlime.Engine',module,<<"lib/phoenix_slime/engine.ex">>,
+ ['Elixir.Module','Elixir.Phoenix.Template.Engine','Elixir.Kernel'],
+ ['Elixir.File','Elixir.EEx','Elixir.Phoenix.HTML.Engine',
+  'Elixir.Slime.Renderer'],
+ [],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/phoenix_slime/ebin/Elixir.Mix.Tasks.Phoenix.Gen.Layout.Slime.beam">>,
+ 'Elixir.Mix.Tasks.Phoenix.Gen.Layout.Slime',module,
+ <<"lib/mix/tasks/phoenix.gen.layout.slime.ex">>,
+ ['Elixir.Module','Elixir.Mix.Task','Elixir.Kernel','Elixir.Enum'],
+ ['Elixir.Mix.Phoenix','Elixir.Mix'],
+ [],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/phoenix_slime/ebin/Elixir.Mix.Tasks.Phoenix.Gen.Html.Slime.beam">>,
+ 'Elixir.Mix.Tasks.Phoenix.Gen.Html.Slime',module,
+ <<"lib/mix/tasks/phoenix.gen.html.slime.ex">>,
+ ['Elixir.Module','Elixir.Mix.Task','Elixir.Kernel','Elixir.Enum'],
+ ['Elixir.Application','Elixir.String.Chars','Elixir.OptionParser',
+  'Elixir.Mix.Phoenix','Elixir.Access','Elixir.Phoenix.Naming',erlang,
+  'Elixir.String','Elixir.Mix','Elixir.Keyword'],
+ [],nil}.

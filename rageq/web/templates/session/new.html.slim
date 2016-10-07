@@ -1,0 +1,18 @@
+h1 Login
+= form_for @changeset, session_path(@conn, :create), fn f ->
+  = if f.errors != [] do
+    p oops
+    ul
+      = for {attr, message} <- f.errors do
+        li
+          | = humanize(attr)
+          | = message
+  .form-group
+    label Username
+    = text_input f, :username, class: "form-control"
+
+  .form-group
+    label Password
+    = text_input f, :password, class: "form-control"
+
+  = submit "Submit", class: "btn"

@@ -1,0 +1,24 @@
+v2.
+{<<"/Users/arriep/Phoenix/rageq/_build/dev/lib/phoenix_live_reload/ebin/Elixir.Phoenix.LiveReloader.Socket.beam">>,
+ 'Elixir.Phoenix.LiveReloader.Socket',module,
+ <<"lib/phoenix_live_reload/socket.ex">>,
+ ['Elixir.Phoenix.Transports.WebSocket','Elixir.Phoenix','Elixir.Module',
+  'Elixir.Phoenix.Socket','Elixir.Kernel',
+  'Elixir.Phoenix.Transports.LongPoll'],
+ [],[],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/dev/lib/phoenix_live_reload/ebin/Elixir.Phoenix.LiveReload.Channel.beam">>,
+ 'Elixir.Phoenix.LiveReload.Channel',module,
+ <<"lib/phoenix_live_reload/channel.ex">>,
+ ['Elixir.Logger','Elixir.Phoenix.Channel','Elixir.Module',
+  'Elixir.Phoenix.Socket','Elixir.Kernel'],
+ ['Elixir.Application','Elixir.String.Chars','Elixir.Access',erlang,
+  'Elixir.String','Elixir.Enum',fs,'Elixir.Path'],
+ [],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/dev/lib/phoenix_live_reload/ebin/Elixir.Phoenix.LiveReloader.beam">>,
+ 'Elixir.Phoenix.LiveReloader',module,
+ <<"lib/phoenix_live_reload/live_reloader.ex">>,
+ ['Elixir.Application','Elixir.File','Elixir.Plug.Conn','Elixir.Module',
+  'Elixir.Plug','Elixir.Kernel'],
+ ['Elixir.String.Chars','Elixir.Map','Elixir.Access',erlang,'Elixir.String',
+  'Elixir.Enum'],
+ [],nil}.

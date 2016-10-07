@@ -1,0 +1,67 @@
+v2.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/slime/ebin/Elixir.Slime.Doctype.beam">>,
+ 'Elixir.Slime.Doctype',module,<<"lib/slime/doctype.ex">>,
+ ['Elixir.Module','Elixir.Kernel'],
+ [],[],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/slime/ebin/Elixir.Slime.beam">>,
+ 'Elixir.Slime',module,<<"lib/slime.ex">>,
+ ['Elixir.String.Chars','Elixir.List','Elixir.Module',erlang,
+  'Elixir.Kernel.Utils','Elixir.Kernel','Elixir.Keyword',
+  'Elixir.ArgumentError','Elixir.Slime.Renderer'],
+ [],[],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/slime/ebin/Elixir.Slime.Renderer.beam">>,
+ 'Elixir.Slime.Renderer',module,<<"lib/slime/renderer.ex">>,
+ ['Elixir.Module','Elixir.Kernel'],
+ ['Elixir.Slime.Parser','Elixir.Slime.Tree','Elixir.Slime.Preprocessor',
+  'Elixir.EEx','Elixir.Slime.Compiler'],
+ [],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/slime/ebin/Elixir.Slime.Preprocessor.beam">>,
+ 'Elixir.Slime.Preprocessor',module,<<"lib/slime/preprocessor.ex">>,
+ ['Elixir.Module','Elixir.String','Elixir.Kernel'],
+ ['Elixir.Regex','Elixir.Enum'],
+ [],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/slime/ebin/Elixir.Slime.Parser.AttributesKeyword.beam">>,
+ 'Elixir.Slime.Parser.AttributesKeyword',module,
+ <<"lib/slime/parser/attributes_keyword.ex">>,
+ ['Elixir.Module','Elixir.Kernel'],
+ ['Elixir.String.Chars','Elixir.Access','Elixir.List',erlang,'Elixir.Keyword',
+  'Elixir.Enum'],
+ [],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/slime/ebin/Elixir.Slime.Tree.DoctypeNode.beam">>,
+ 'Elixir.Slime.Tree.DoctypeNode',module,<<"lib/slime/tree/doctype_node.ex">>,
+ ['Elixir.Protocol','Elixir.Module','Elixir.Kernel.Utils','Elixir.Kernel'],
+ [],[],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/slime/ebin/Elixir.Slime.Tree.EExNode.beam">>,
+ 'Elixir.Slime.Tree.EExNode',module,<<"lib/slime/tree/eex_node.ex">>,
+ ['Elixir.Protocol','Elixir.Module','Elixir.Kernel.Utils','Elixir.Kernel'],
+ [],[],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/slime/ebin/Elixir.Slime.Tree.HTMLNode.beam">>,
+ 'Elixir.Slime.Tree.HTMLNode',module,<<"lib/slime/tree/html_node.ex">>,
+ ['Elixir.Protocol','Elixir.Module','Elixir.Kernel.Utils','Elixir.Kernel'],
+ [],[],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/slime/ebin/Elixir.Slime.Tree.TextNode.beam">>,
+ 'Elixir.Slime.Tree.TextNode',module,<<"lib/slime/tree/text_node.ex">>,
+ ['Elixir.Protocol','Elixir.Module','Elixir.Kernel.Utils','Elixir.Kernel'],
+ [],[],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/slime/ebin/Elixir.Slime.Tree.beam">>,
+ 'Elixir.Slime.Tree',module,<<"lib/slime/tree.ex">>,
+ ['Elixir.Slime.Tree.HTMLNode','Elixir.Slime.Tree.DoctypeNode',
+  'Elixir.Slime.Tree.TextNode','Elixir.Slime.Tree.EExNode','Elixir.Module',
+  'Elixir.Kernel'],
+ ['Elixir.Map','Elixir.Access',erlang,'Elixir.Keyword','Elixir.Enum'],
+ [],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/slime/ebin/Elixir.Slime.Compiler.beam">>,
+ 'Elixir.Slime.Compiler',module,<<"lib/slime/compiler.ex">>,
+ ['Elixir.Slime.Tree.HTMLNode','Elixir.Slime.Tree.DoctypeNode',
+  'Elixir.Slime.Tree.TextNode','Elixir.Slime.Tree.EExNode','Elixir.Module',
+  'Elixir.Kernel'],
+ ['Elixir.String.Chars','Elixir.Access','Elixir.Regex',erlang,'Elixir.String',
+  'Elixir.Enum'],
+ [],nil}.
+{<<"/Users/arriep/Phoenix/rageq/_build/test/lib/slime/ebin/Elixir.Slime.Parser.beam">>,
+ 'Elixir.Slime.Parser',module,<<"lib/slime/parser.ex">>,
+ ['Elixir.String.Chars','Elixir.Regex','Elixir.Module','Elixir.Kernel'],
+ ['Elixir.Range','Elixir.Access','Elixir.Slime.Parser.AttributesKeyword',
+  'Elixir.List',erlang,'Elixir.Dict','Elixir.String','Elixir.Enum',
+  'Elixir.Slime.Doctype'],
+ [],nil}.

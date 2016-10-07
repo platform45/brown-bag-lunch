@@ -1,0 +1,37 @@
+@import 'https://fonts.googleapis.com/css?family=Droid+Serif|Hind'
+
+$font_primary: 'Droid Serif', serif
+$font_secondary: 'Hind', sans-serif
+
+body
+  background: #fafafa
+  font-family: $font_secondary
+  font-weight: 300
+  margin: 0
+  padding: 0
+  &.body--post
+    background: #fff
+
+.container
+  max-width: 910px
+
+header.header
+  position: relative
+  height: 85px
+  background: #FFF
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2)
+
+  .logo
+    display: none
+  .navigation-options
+    position: absolute
+    right: 50px
+    top: 30px
+    > div
+      display: inline-block
+      margin: 0px 20px
+    a
+      font-size: 21px
+      color: rgba(0,0,0,0.3)
+      &:hover
+        text-decoration: none

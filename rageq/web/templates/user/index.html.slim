@@ -1,0 +1,7 @@
+h1 Hello Users
+= link "New User", to: user_path(@conn, :new)
+div
+  ul
+    = for user <- @users do
+      li
+        = user.username

@@ -1,0 +1,37 @@
+doctype html
+html[lang="en"]
+  head
+    meta[charset="utf-8"]
+    meta[http-equiv="X-UA-Compatible" content="IE=edge"]
+    meta[name="viewport" content="width=device-width, initial-scale=1"]
+    meta[name="description" content=""]
+    meta[name="author" content=""]
+    title
+      | Hello Rageq!
+    link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.css"
+    link[rel="stylesheet" href="#{static_path(@conn, "/css/app.css")}"]
+  body class="body--#{List.first(@conn.path_info)}"
+    header.header
+      .navigation-options
+        .menu
+          a class="icon-options-vertical icons"
+        .login-logout
+          = if user = current_user(@conn) do
+            = link "", to: session_path(@conn, :delete, user.id), method: :delete, class: "icon-logout icons"
+          - else
+            = link "Log in", to: session_path(@conn, :new)
+      / nav[role="navigation"]
+        / ul.nav.nav-pills.pull-right
+        / li
+
+
+      span.logo
+    .container
+      p.alert.alert-info[role="alert"]
+        = get_flash(@conn, :info)
+      p.alert.alert-danger[role="alert"]
+        = get_flash(@conn, :error)
+      main[role="main"]
+        = render @view_module, @view_template, assigns
+
+    script[src="#{static_path(@conn, "/js/app.js")}"]

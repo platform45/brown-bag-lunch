@@ -1,0 +1,134 @@
+@import app.sass
+
+.posts
+  max-width: 710px
+  // margin: 0 auto
+  .posts--post
+    background: #FFF
+    margin: 50px 0px
+    padding-bottom: 25px
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2)
+    position: relative
+    .posts-post--actions
+      position: absolute
+      left: -80px
+      font-size: 21px
+      color: rgba(0,0,0,0.4)
+      border-right: 1px solid rgba(0,0,0,0.4)
+      padding-right: 20px
+      i
+        display: block
+        margin: 15px 0
+        text-align: right
+        &:first-child
+          margin-top: 0px
+        &:last-child
+          margin-bottom: 5px
+        &.read-time
+          font-size: 12px
+          color: #1DE9B6
+    div.posts-post--image
+      height: 250px
+      overflow: hidden
+      img
+        width: 100%
+    h1.posts-post--heading
+      margin-top: 35px
+      padding: 0px 50px
+      font-family: $font_primary
+      font-size: 38px
+    p.posts-post--content
+      padding: 0px 50px
+      margin-top: 25px
+      font-family: $font_secondary
+      font-size: 18px
+      font-weight: 300
+      line-height: 1.88em
+    .read-more
+      display: block
+      margin-top: 15px
+      color: rgba(0,0,0,0.4)
+      font-size: 14px
+      &:hover
+        text-decoration: none
+
+.post
+  .post--post
+    background: #fff
+    position: relative
+    .posts-post--actions
+      position: absolute
+      left: -80px
+      font-size: 21px
+      color: rgba(0,0,0,0.4)
+      border-right: 1px solid rgba(0,0,0,0.4)
+      padding-right: 20px
+      i
+        display: block
+        margin: 15px 0
+        text-align: right
+        &:first-child
+          margin-top: 0px
+        &:last-child
+          margin-bottom: 5px
+        &.read-time
+          font-size: 12px
+          color: #1DE9B6
+    .post-post--image
+      height: 250px
+      overflow: hidden
+      img
+        width: 100%
+    h1.post-post--heading
+      margin-top: 35px
+      padding: 0px 50px
+      font-family: $font_primary
+      font-size: 38px
+    p.post-post--content
+      padding: 0px 50px
+      margin-top: 25px
+      font-family: $font_secondary
+      font-size: 18px
+      font-weight: 300
+      line-height: 1.88em
+
+    .post-post--comments
+      background: #fafafa
+      margin: 50px 0
+      padding-top: 50px
+      .post-post--comment
+        width: 60%
+        background: #fff
+        padding: 25px
+        margin: 15px auto
+        box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2)
+        .post-post--comment-details
+          margin-bottom: 25px
+          .post-post--comment-details-author
+            text-transform: capitalize
+            color: rgba(#1de9b6, 0.7)
+          .post-post--comment-details-date
+            color: rgba(#1de9b6, 0.7)
+      .post-post-comment-box
+        margin: 50px auto
+        width: 60%
+        textarea
+          height: 150px
+          border-radius: 0
+        a
+          background: none
+          border: 1px solid #1de9b6
+          color: #1de9b6
+          font-size: 16px
+          padding: 10px
+          margin-top: 15px
+          display: inline-block
+          transition: all 0.5s
+          &:hover
+            text-decoration: none
+            cursor: pointer
+            border-color: darken(#1de9b6, 10%)
+            color: darken(#1de9b6, 10%)
+
+
+

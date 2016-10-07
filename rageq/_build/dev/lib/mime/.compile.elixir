@@ -1,0 +1,9 @@
+v2.
+{<<"/Users/arriep/Phoenix/rageq/_build/dev/lib/mime/ebin/Elixir.MIME.beam">>,
+ 'Elixir.MIME',module,<<"lib/mime.ex">>,
+ ['Elixir.Application','Elixir.String.Chars','Elixir.File','Elixir.List',
+  'Elixir.Kernel.Typespec','Elixir.Module',erlang,'Elixir.String',
+  'Elixir.Kernel','Elixir.Enum','Elixir.Path'],
+ [],
+ [<<"lib/mime.types">>],
+ nil}.
